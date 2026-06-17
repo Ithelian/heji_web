@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>全站 Demo 预览｜和基投资</title>
+  <meta name="description" content="和基投资网站所有页面的集中 Demo 预览入口。">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="demo-page">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="和基投资首页">
+        <span class="brand-mark">和</span>
+        <span><strong>和基投资</strong><small>HEJI CAPITAL</small></span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <div class="nav-item has-dropdown">
+          <a href="team.html">关于我们</a>
+          <div class="dropdown">
+            <a href="team.html">和基团队</a>
+            <a href="primary-market.html">一级市场</a>
+            <a href="secondary-market.html">二级市场</a>
+            <a href="portfolio.html">投资案例</a>
+          </div>
+        </div>
+        <div class="nav-item has-dropdown">
+          <a href="news.html">新闻与洞察</a>
+          <div class="dropdown">
+            <a href="news.html">公司新闻</a>
+            <a href="insights.html">行业洞察</a>
+          </div>
+        </div>
+        <a class="active" href="demo.html">Demo预览</a>
+      </nav>
+      <form class="search" role="search" onsubmit="return siteSearch(event)">
+        <input id="site-search" type="search" placeholder="搜索" aria-label="搜索网站内容">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero demo-hero">
+      <div class="container">
+        <p class="eyebrow">Site Preview</p>
+        <h1>全站 Demo 预览</h1>
+        <p>集中预览当前网站的所有页面。点击卡片按钮可进入真实页面查看完整内容与响应式效果。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="demo-toolbar" aria-label="预览说明">
+          <div>
+            <strong>7 个页面</strong>
+            <span>首页、关于、一级市场、二级市场、投资案例、新闻、洞察</span>
+          </div>
+          <a class="btn primary" href="index.html">从首页开始浏览</a>
+        </div>
+
+        <div class="demo-grid">
+          <article class="demo-card">
+            <div class="demo-frame"><iframe src="index.html" title="首页预览" loading="lazy"></iframe></div>
+            <div class="demo-card-body"><p class="eyebrow">Home</p><h2>首页</h2><p>公司简介、发展历程与企业文化的首屏入口。</p><a class="btn" href="index.html">打开页面</a></div>
+          </article>
+          <article class="demo-card">
+            <div class="demo-frame"><iframe src="team.html" title="和基团队预览" loading="lazy"></iframe></div>
+            <div class="demo-card-body"><p class="eyebrow">About Us</p><h2>和基团队</h2><p>展示管理、投资、运营与风控团队模块。</p><a class="btn" href="team.html">打开页面</a></div>
+          </article>
+          <article class="demo-card">
+            <div class="demo-frame"><iframe src="primary-market.html" title="一级市场预览" loading="lazy"></iframe></div>
+            <div class="demo-card-body"><p class="eyebrow">Primary Market</p><h2>一级市场</h2><p>聚焦硬核科技与先进制造的投资方向。</p><a class="btn" href="primary-market.html">打开页面</a></div>
+          </article>
+          <article class="demo-card">
+            <div class="demo-frame"><iframe src="secondary-market.html" title="二级市场预览" loading="lazy"></iframe></div>
+            <div class="demo-card-body"><p class="eyebrow">Secondary Market</p><h2>二级市场</h2><p>展示私募证券投资理念、特色与基金产品。</p><a class="btn" href="secondary-market.html">打开页面</a></div>
+          </article>
+          <article class="demo-card">
+            <div class="demo-frame"><iframe src="portfolio.html" title="投资案例预览" loading="lazy"></iframe></div>
+            <div class="demo-card-body"><p class="eyebrow">Portfolio</p><h2>投资案例</h2><p>集中呈现在持项目与已退出/上市案例。</p><a class="btn" href="portfolio.html">打开页面</a></div>
+          </article>
+          <article class="demo-card">
+            <div class="demo-frame"><iframe src="news.html" title="公司新闻预览" loading="lazy"></iframe></div>
+            <div class="demo-card-body"><p class="eyebrow">News</p><h2>公司新闻</h2><p>记录公司荣誉、策略表现与阶段性动态。</p><a class="btn" href="news.html">打开页面</a></div>
+          </article>
+          <article class="demo-card">
+            <div class="demo-frame"><iframe src="insights.html" title="行业洞察预览" loading="lazy"></iframe></div>
+            <div class="demo-card-body"><p class="eyebrow">Insights</p><h2>行业洞察</h2><p>预留产业研究、市场观察与投资方法论模块。</p><a class="btn" href="insights.html">打开页面</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container">© 2026 和基投资 HEJI CAPITAL</div></footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
