@@ -24,7 +24,10 @@ body{
   margin:0;
   font-family:"Noto Sans SC","Microsoft YaHei","PingFang SC",Arial,sans-serif;
   color:var(--text);
-  background:var(--bg);
+  background:
+    radial-gradient(circle at 8% 12%,rgba(202,161,95,.12),transparent 28%),
+    radial-gradient(circle at 92% 4%,rgba(129,90,36,.10),transparent 24%),
+    var(--bg);
   line-height:1.78;
   font-size:15px;
   -webkit-font-smoothing:antialiased;
